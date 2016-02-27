@@ -19,7 +19,11 @@
         "guzzlehttp/guzzle": "6.1.1",
         "arara/process": "1.10.0",
         "mkraemer/react-pcntl": "v2.0.0",
-        "jenner/simple_fork": "1.1.2"
+        "jenner/simple_fork": "1.1.2",
+        "malenki/ansi": "1.2.6",
+        "bramus/ansi-php": "dev-master",
+        "pear2/console_color": "1.0.0",
+        "simoneast/simple-ansi-colors": "1.0.1"
     },
     "config": {
         "secure-http": false
