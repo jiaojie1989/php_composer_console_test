@@ -1137,5 +1137,208 @@
             "rest",
             "web service"
         ]
+    },
+    {
+        "name": "phpfluent/callback",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPFluent/Callback.git",
+            "reference": "fd41152a496917fd4854d13388084de9688e7edc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/PHPFluent/Callback/fd41152a496917fd4854d13388084de9688e7edc.zip",
+            "reference": "fd41152a496917fd4854d13388084de9688e7edc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpmd/phpmd": "~2.2",
+            "phpunit/phpunit": "~4.6",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "time": "2015-06-03 19:24:39",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPFluent\\Callback\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Henrique Moody",
+                "email": "henriquemoody@gmail.com",
+                "homepage": "http://about.me/henriquemoody"
+            }
+        ],
+        "description": "Allows you execute callbacks in a more dynamic way",
+        "homepage": "https://github.com/PHPFluent/Callback",
+        "keywords": [
+            "callable",
+            "callback",
+            "closure"
+        ]
+    },
+    {
+        "name": "arara/process",
+        "version": "1.10.0",
+        "version_normalized": "1.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Arara/Process.git",
+            "reference": "13a5bce650c018e45eec8a9de5bc1c4d696a4082"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/Arara/Process/13a5bce650c018e45eec8a9de5bc1c4d696a4082.zip",
+            "reference": "13a5bce650c018e45eec8a9de5bc1c4d696a4082",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcntl": "*",
+            "ext-posix": "*",
+            "php": ">=5.4.0",
+            "phpfluent/callback": "~1.0"
+        },
+        "require-dev": {
+            "ext-uopz": "*",
+            "phpmd/phpmd": "~2.2",
+            "phpunit/phpunit": "~4.6",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "time": "2015-06-03 19:54:33",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.10-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Arara\\Process": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Henrique Moody",
+                "email": "henriquemoody@gmail.com"
+            }
+        ],
+        "description": "Provides a better API to work with processes on Unix-like systems",
+        "homepage": "https://github.com/Arara/Process",
+        "keywords": [
+            "command",
+            "daemon",
+            "fork",
+            "multitasking",
+            "pcntl",
+            "posix",
+            "process",
+            "spawn",
+            "task"
+        ]
+    },
+    {
+        "name": "mkraemer/react-pcntl",
+        "version": "v2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mkraemer/react-pcntl.git",
+            "reference": "184ccb1acad5e7209ee383979be0bff0c2a50a39"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/mkraemer/react-pcntl/184ccb1acad5e7209ee383979be0bff0c2a50a39.zip",
+            "reference": "184ccb1acad5e7209ee383979be0bff0c2a50a39",
+            "shasum": ""
+        },
+        "require": {
+            "evenement/evenement": "2.0.*",
+            "ext-pcntl": "*",
+            "react/event-loop": "0.4.*"
+        },
+        "time": "2014-08-26 12:57:41",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "MKraemer": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marius Krämer",
+                "email": "marius@marius-kraemer.de"
+            }
+        ],
+        "description": "PCNTL bindings for ReactPHP",
+        "keywords": [
+            "pcntl",
+            "react"
+        ]
+    },
+    {
+        "name": "jenner/simple_fork",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/huyanping/simple-fork-php.git",
+            "reference": "fd64d2e4db672bb7a5bd2ce21812cd25e3f75fd9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/huyanping/simple-fork-php/fd64d2e4db672bb7a5bd2ce21812cd25e3f75fd9.zip",
+            "reference": "fd64d2e4db672bb7a5bd2ce21812cd25e3f75fd9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-11-24 06:13:54",
+        "type": "package",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Jenner\\SimpleFork\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jenner",
+                "email": "hypxm@qq.com",
+                "homepage": "http://www.huyanping.cn"
+            }
+        ],
+        "description": "simple multi process manager based on pcntl",
+        "keywords": [
+            "fork",
+            "fork manager",
+            "process ipc",
+            "process manager"
+        ]
     }
 ]

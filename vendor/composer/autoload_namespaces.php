@@ -7,5 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
+    'MKraemer' => array($vendorDir . '/mkraemer/react-pcntl/src'),
     'Evenement' => array($vendorDir . '/evenement/evenement/src'),
+    'Arara\\Process' => array($vendorDir . '/arara/process/src'),
 );
