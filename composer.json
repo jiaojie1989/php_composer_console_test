@@ -1,0 +1,24 @@
+{
+    "name": "root/composer_console_test",
+    "authors": [
+        {
+            "name": "JIAO Jie",
+            "email": "thomasjiao@vip.qq.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "v3.0.0",
+        "symfony/process": "v3.0.1",
+        "symfony/debug": "v3.0.1",
+        "symfony/filesystem": "v3.0.1",
+        "react/mysql": "v0.2.0",
+        "react/socket": "v0.4.1",
+        "fzaninotto/faker": "v1.5.0",
+        "symfony/http-foundation": "v3.0.2",
+        "monolog/monolog": "1.17.2",
+        "guzzlehttp/guzzle": "6.1.1"
+    },
+    "config": {
+        "secure-http": false
+    }
+}
