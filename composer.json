@@ -16,7 +16,10 @@
         "fzaninotto/faker": "v1.5.0",
         "symfony/http-foundation": "v3.0.2",
         "monolog/monolog": "1.17.2",
-        "guzzlehttp/guzzle": "6.1.1"
+        "guzzlehttp/guzzle": "6.1.1",
+        "arara/process": "1.10.0",
+        "mkraemer/react-pcntl": "v2.0.0",
+        "jenner/simple_fork": "1.1.2"
     },
     "config": {
         "secure-http": false
